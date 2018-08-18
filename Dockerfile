@@ -37,4 +37,3 @@ RUN R -e 'install.packages(c( "ggplot2", "plotly", "htmlwidgets"))'
 RUN R -e 'devtools::install_github(c( "trestletech/plumber"))'
 
 RUN R -e 'install.packages(c( "caret", "DMwR"))'
-RUN R -e 'install.packages(c( "NMF", "pvclust"))'
